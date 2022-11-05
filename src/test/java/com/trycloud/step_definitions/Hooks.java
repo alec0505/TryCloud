@@ -28,7 +28,7 @@ public class Hooks {
 
     }
 
-    @After
+   // @After
     public void tearDownScenario(Scenario scenario){
         // we will implement taking screenshot in this method
         //System.out.println("It will be closing browser using cucumber @After each scenario");
