@@ -25,6 +25,7 @@ public class US_5_Favorites_File_StepDefinitions {
     public void theUsersShouldBeOnDashboardPage() {
         Driver.getDriver().get(ConfigurationReader.getProperty("env"));
         loginPage.login(ConfigurationReader.getProperty("username"), ConfigurationReader.getProperty("password"));
+        //some errors fixed
     }
     @When("the user clicks the files module")
     public void theUserClicksTheFilesModule() {
