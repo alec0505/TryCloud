@@ -9,7 +9,7 @@ public class Driver {
     private Driver() {
     } // private constructor, no access to the object of this class
 
-    private static InheritableThreadLocal<WebDriver> driverPool = new InheritableThreadLocal<>(); // making our driver instance private , so it is not reachable, we make it static, becouse we want to run it before anything else
+    private static InheritableThreadLocal<WebDriver> driverPool = new InheritableThreadLocal<>(); // making our driver instance private , so it is not reachable, we make it static, because we want to run it before anything else
 
     public static WebDriver getDriver() { // create re-usable utility which will return same driver instance when we call it. Depending on browserType our switch statement will determine to open specific type of browser
 
