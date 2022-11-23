@@ -20,6 +20,7 @@ public class Verify_Login_With_Valid_Credentials_StepDefinitions {
         login_pages.passwordBox.sendKeys(password);
     }
 
+
     @Given("user click the login button")
     public void user_click_the_login_button() {
         login_pages.submitBtn.click();
