@@ -7,3 +7,4 @@ Feature: As a user, I should be able to access to Files module - Favorites butto
     And user choose the "Add to favorites" option
     And user click the "Favorites" sub-module on the left side
     Then Verify the chosen file is listed on the table
+
